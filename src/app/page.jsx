@@ -13,11 +13,11 @@ export default function Home() {
     <div className="w-[100%] bg-black ">
       <Navbar/>
       <Hero />
-      <Features />
+      {/* <Features /> */}
       {/* <Pricing/> */}
-      <DemoVideo />
-      <TimelineDemo />
-      <Developers />
+      {/* <DemoVideo /> */}
+      {/* <TimelineDemo /> */}
+      {/* <Developers /> */}
       {/* <InfiniteMovingCardsDemo /> */}
       <Footer/>
     </div>
