@@ -9,7 +9,7 @@ import { collection, addDoc, doc, updateDoc, arrayUnion, getDoc, setDoc, query, 
 import { onAuthStateChanged } from 'firebase/auth';
 import { Toaster, toast } from 'react-hot-toast'; // Modified this line
 import { useRouter } from 'next/navigation'; // Add this import
-import Footer from '../../components/Footer';
+import Footer from '../../components/Footer-New';
 export default function VideoPage() {
   const router = useRouter(); // Add this
   const { videoData, setVideoData } = useVideoContext();

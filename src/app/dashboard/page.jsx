@@ -4,7 +4,7 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { doc, getDoc, updateDoc, deleteDoc, arrayRemove } from "firebase/firestore";
 import { db } from "../../lib/firebase";
 import Navbar from "../../components/landingpage/Navbar";
-import Footer from '../../components/Footer';
+import Footer from '../../components/Footer-New';
 import { SparklesCore } from "../../components/ui/sparkles";
 import FlashCardModal from "@/components/dashboard/flashcard_modal";
 import { useRouter } from "next/navigation";

@@ -3,7 +3,7 @@ import { useRef, useState, useEffect } from 'react';
 import html2pdf from 'html2pdf.js';
 import { FaDownload, FaFilePdf, FaTrash, FaSave, FaRobot } from 'react-icons/fa';
 import Navbar from '../../../components/landingpage/Navbar';
-import Footer from '../../../components/Footer';
+import Footer from '../../../components/Footer-New';
 import { db, auth } from '../../../lib/firebase';
 import { doc, getDoc, updateDoc, collection, addDoc, query, where, getDocs, setDoc, arrayUnion } from 'firebase/firestore';
 import { onAuthStateChanged } from 'firebase/auth';
